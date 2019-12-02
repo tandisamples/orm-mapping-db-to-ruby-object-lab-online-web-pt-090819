@@ -8,11 +8,12 @@ class Student
     new_student.name = row[1]
     new_student.grade = row[2]
     new_student
-    # retrieve all the rows from the "Stu
-    # remember each row should be a new instance of the Student clasdents" databases
+    
   end
 
   def self.all
+    # retrieve all the rows from the "Stu
+    # remember each row should be a new instance of the Student clasdents" databases
      sql = <<-SQL
     SELECT *
     FROM students
