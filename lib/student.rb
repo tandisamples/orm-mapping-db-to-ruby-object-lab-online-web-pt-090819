@@ -39,6 +39,8 @@ class Student
     # return a new instance of the Student class
   end
   
+  def self.all_
+  
   def save
     sql = <<-SQL
       INSERT INTO students (name, grade) 
